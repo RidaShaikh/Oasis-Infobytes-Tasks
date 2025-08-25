@@ -1,0 +1,169 @@
+html {
+  width: 100%;
+}
+
+body {
+  font-family: Lato;
+  font-size: 100%;
+  color: #7f7f7f;
+  min-width: 960px;
+  background: #000;
+  margin: 0px;
+}
+
+.main {
+  width: 960px;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.container {
+  width: 940px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+/*********************************header*************************************/
+header {
+  width: 100%;
+  background: #f2f2f2;
+  position: relative;
+  z-index: 2;
+}
+
+.row-top {
+  width: 100%;
+  padding: 10px 0;
+  background: #000;
+}
+
+.slider img {
+  width: 100%;
+}
+
+h1 {
+  float: left;
+}
+
+h1 a {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1.4em;
+  color: #fff;
+  letter-spacing: -3px;
+  margin-top: -10px;
+}
+
+h1 a span {
+  color: #c52e02;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: normal;
+  line-height: 108px;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+}
+
+h2 span {
+  color: #000;
+}
+
+h3 {
+  color: black;
+}
+
+#page1 h2 {
+  margin-bottom: 9px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+/***** menu *****/
+.menu {
+  padding: 26px 10px 0 0;
+  float: right;
+}
+
+.menu li {
+  float: left;
+  padding-left: 40px;
+  list-style: none;
+}
+
+.menu li a {
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 18px;
+  padding: 0;
+  color: #fff;
+}
+
+.row-bot {
+  width: 100%;
+  background: url(images/row-bot-tail.gif) center top repeat-x;
+}
+
+.row-bot-bg {
+  width: 100%;
+  min-height: 122px;
+  background: url(images/row-bot-bg.jpg) center top no-repeat;
+}
+
+.p2 {
+  font-size: 20px;
+}
+
+/*********************************content*************************************/
+#content {
+  width: 100%;
+  padding: 15px 0 50px;
+  background: #f2f2f2;
+  position: relative;
+  z-index: 1;
+}
+
+.list-1 a {
+  display: inline-block;
+  color: #7f7f7f;
+}
+
+.list-1 a:hover {
+  color: #d53a03;
+  text-decoration: underline;
+}
+
+.list-1 span {
+  display: block;
+  line-height: 25px;
+  padding: 8px 0 17px;
+}
+
+/****************************footer************************/
+footer {
+  width: 100%;
+  padding: 23px 0 30px;
+  color: #fff;
+}
+
+footer .main {
+  font-size: 24px;
+  line-height: 25px;
+}
